@@ -5,7 +5,7 @@ body { font-family: 'Open Sans', Arial, Helvetica, sans-serif; }
 img { margin: 0; padding: 0; }
 
 #myBoard { float: left; width: 300px; height: 600px; margin-right: 50px; background: url(board.png) center top no-repeat; position: relative; }
-	#myBoard-info { padding: 220px 80px; color: #FFF; text-align: center; font-size: 200%; font-weight: bold; background: #000; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.5; z-index: 1000; }
+	#myBoard-info { padding: 220px 80px; color: #FFF; text-align: center; font-size: 200%; font-weight: bold; background: #000; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.8; z-index: 1000; }
 	
 #myBlock { position: absolute; width: 120px; height: 120px; }
 
