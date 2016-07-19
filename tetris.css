@@ -1,11 +1,12 @@
+body { font-family: 'Open Sans', Arial, Helvetica, sans-serif; }
+
 .clear { clear: both; }
 
 img { margin: 0; padding: 0; }
 
 #myBoard { float: left; width: 300px; height: 600px; margin-right: 50px; background: url(board.png) center top no-repeat; position: relative; }
-
-#myBoard code { font-size: 250%; margin: 0; padding: 0; font-weight: bold; color: #666; }
-
+	#myBoard-info { padding: 220px 80px; color: #FFF; text-align: center; font-size: 200%; font-weight: bold; background: #000; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.5; z-index: 1000; }
+	
 #myBlock { position: absolute; width: 120px; height: 120px; }
 
 #myBlock #tiles { position: relative; width: 100%; height: 100%; }
@@ -19,4 +20,4 @@ img.tile { position: absolute; display: block; width: 30px; height: 30px; }
 #thescore { color: #FF0; font-size: 200%; }
 
 #info { padding: 20px; background-color: #EEE; }
-#info code { display: block; }
+	#info code { display: block; margin: 0 0 20px 0; }
